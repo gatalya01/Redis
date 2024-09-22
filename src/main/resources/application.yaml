@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  thymeleaf:
+    cache: false
+  profiles:
+    active: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 654987123Yutre
+  jpa:
+    hibernate:
+      ddl-auto: update
